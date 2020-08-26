@@ -1,7 +1,7 @@
-variable "Access_key" {
+variable "AWS_ACCESS_KEY" {
   type = string
 }
-variable "Secret_key" {
+variable "AWS_SECRET_KEY" {
   type = string
 }
 variable "AWS_REGION" {
