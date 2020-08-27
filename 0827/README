@@ -1,0 +1,4 @@
+SSH Jump / Proxy
+
+ssh -i keypair/mykey -o ProxyCommand="ssh -i keypair/mykey -W %h:%p ubuntu@X.X.X.X" ubuntu@X.X.X.X
+
